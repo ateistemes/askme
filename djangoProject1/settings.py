@@ -77,7 +77,11 @@ WSGI_APPLICATION = 'djangoProject1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'askme',
+        'NAME': 'askmedb',
+        'USER': 'postgres',
+        'PASSWORD': '1433',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
